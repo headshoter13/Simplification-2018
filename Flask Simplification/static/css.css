@@ -1,0 +1,142 @@
+body {
+    font: 30px 'Verdana';
+    margin: 0;
+    padding: 0;
+	background: url(bg1.jpg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover; 
+	color: Black
+}
+
+form {
+	font: 20 px 'Verdana';
+	color: black
+}
+
+header {
+	 font: 14px 'Verdana';
+    margin: 0;
+    padding: 0;
+	background: url(bg1.jpg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover; 
+}
+.h3 {
+	padding: 0;
+	margin: 0;
+}
+
+.h2 {
+	color: black;
+	
+}
+p {
+	text-indent: 15px; /* Отступ первой строки в пикселах */
+	color: white;
+	border: 1px solid black;
+	padding: 0px;
+	-webkit-text-stroke: 1px black;
+
+}
+.logo {
+	color: #FFF;
+	text-shadow:0 0 0px #0ea;
+	font-size: 40px;
+	animation: anim 2s ease-in-out 0s infinite;
+	-webkit-animation: anim 2s linear 0s infinite;
+}
+
+@-webkit-keyframes anim {
+	
+	0% {text-shadow:0 0 0px #0ea;}
+	25% {text-shadow:0 0 20px #0ea;}
+	50% {text-shadow:0 0 50px #0ea;}
+	75% {text-shadow:0 0 20px #0ea;}
+	100% {text-shadow:0 0 0px #0ea;}
+}
+.bg {
+	background-color: black;
+	height: 70px;
+	margin: 0px;
+	width: 100%;
+	border-radius:10px;
+}
+ul {
+    display: flex;  
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	justify-content: center;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    position: relative;
+	margin: 0px;
+	padding: 10px;
+}
+ul.menu > li > a {
+	margin: 0px;
+	transition: 0.5s;
+	display:block;
+	padding: 16px;
+	color: white;
+	font-family:Arial;
+	font-size: 21px;
+	text-decoration: none;
+	border-radius:20px;
+}
+ul.menu > li > a:hover {
+	transition: 0.2s all;
+	transform: translateY(4px);
+    background-color: red;
+}
+ul.submenu {
+    display: none;
+	padding: 6px;
+    position: absolute;
+    width: 108px;
+    top: 70px;
+    left: 2px;
+    background:black;
+    border-radius:5px;
+}
+
+ul.submenu > li {
+    display: block;
+	padding: 0px;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 9px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+	border-radius:10px;
+}
+ul.submenu > li > a:hover {
+	transition: 0.2s all;
+	background-color: red;
+	padding: 9px 0 9px 15px;
+}
+
+ul.menu > li:hover > ul.submenu {
+	display:block;
+}
+body{
+width:1000px;
+margin:0px auto;
+}
+
+.myInput{
+width:1000px;
+height:1200px;
+}

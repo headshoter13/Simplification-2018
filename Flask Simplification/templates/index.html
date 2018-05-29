@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Russian Text Simplifier</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="static/css.css" />
+</head>
+<div class ="logo">
+<h4 align ="center">Russian Text Simplifier</h4>
+</div>
+<div class ="bg">
+			<div class="menu">
+				<ul class="menu">
+					<li><a href=#>Home</a></li>
+	
+				</ul>
+			</div>
+</div>
+
+
+
+<body>
+
+<form align = "center">
+<br>
+<label>Your Text to Simplify:<br></label><br>
+
+
+<textarea name="query" type = "text" cols="110" rows="7" style = "font-family: tahoma; font-size: 20px;"></textarea>
+
+
+<br>
+
+<button type="submit" id="button" style = "width: 100px; height: 75px;"><b>Simplify!<b></button>
+</form>
+{% if links %}
+  <h2 align = "center">Result:</h2> <h4 align = "center"> 
+  <p>{{ links }}</p></h4>
+{% endif %}
+
+
+</body>
+</html>
