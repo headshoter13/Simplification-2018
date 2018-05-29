@@ -25,6 +25,7 @@
  ## Flask realization
  
  В папке Flask Simplification можно посмотреть визуализацию алгоритма с помощью фреймворка Flask.
+ Также приложение доступно по ссылке : http://headshoter13.pythonanywhere.com/
  
  ## Примеры работы алгоритма
  
